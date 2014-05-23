@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedProjectBuildInfo>
+    <target artifactName="acv_chopper2.prc" cleanCommand="rm -rf"
+        defaultExtension="prc"
+        id="acv_chopper2.com.palmsource.eclipse.palmos4dev.target.m68k_palmos.exe.327581665"
+        isAbstract="false" isTest="false" name="Palm OS 68K Application" parent="com.palmsource.eclipse.palmos4dev.target.m68k_palmos.exe">
+        <configuration id="target.m68k_palmos.exe.debug.327581665"
+            name="Debug" parent="target.m68k_palmos.exe.debug">
+            <toolReference id="com.palmsource.eclipse.palmostools.compiler.palmrc">
+                <optionReference id="tool.compiler.palmrc.option.otherFlags">
+                    <listOptionValue builtIn="false" value="-p PalmOS4"/>
+                </optionReference>
+                <optionReference defaultValue="" id="tool.compiler.palmrc.option.locale"/>
+                <optionReference defaultValue="true" id="tool.compiler.palmrc.option.strictEncoding"/>
+                <optionReference defaultValue="false" id="tool.compiler.palmrc.option.noWarnSize"/>
+            </toolReference>
+            <toolReference id="com.palmsource.eclipse.palmos4dev.compiler.m68k_palmos">
+                <optionReference defaultValue="None (-O0)" id="tool.compiler.gcc.68K.option.optLevel"/>
+                <optionReference defaultValue="Default (-g)" id="tool.compiler.gcc.68K.option.debugLevel"/>
+                <optionReference id="tool.compiler.gcc.68K.option.defineSymbols">
+                    <listOptionValue builtIn="false" value="__PALMOS__=0x05000000"/>
+                    <listOptionValue builtIn="true" value="__MWERKS__"/>
+                </optionReference>
+                <optionReference id="tool.compiler.gcc.68K.option.includeDirs">
+                    <listOptionValue builtIn="false" value="&quot;$(TOOLS_DIR)include/stlport&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Core&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Core/Hardware&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Core/System&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Core/System/Unix&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Core/UI&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Dynamic&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Extensions&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Extensions/Bluetooth&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Extensions/ExpansionMgr&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/AddressSort&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/CPMLib&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/exglocal&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/INet&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/Lz77&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/PalmOSGlue&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/Pdi&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/Simulator&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/Simulator/Locale&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/Sms&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/SSL&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/Telephony&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/Telephony/UI&quot;"/>
+                </optionReference>
+            </toolReference>
+            <toolReference id="com.palmsource.eclipse.palmos4dev.linker.m68k_palmos">
+                <optionReference defaultValue="true" id="tool.linker.gcc.68K.option.enableLinkerDebug"/>
+            </toolReference>
+        </configuration>
+        <configuration id="target.m68k_palmos.exe.release.301744984"
+            name="Release" parent="target.m68k_palmos.exe.release">
+            <toolReference id="com.palmsource.eclipse.palmostools.compiler.palmrc">
+                <optionReference id="tool.compiler.palmrc.option.otherFlags">
+                    <listOptionValue builtIn="false" value="-p PalmOS4"/>
+                </optionReference>
+                <optionReference defaultValue="" id="tool.compiler.palmrc.option.locale"/>
+                <optionReference defaultValue="true" id="tool.compiler.palmrc.option.strictEncoding"/>
+                <optionReference defaultValue="false" id="tool.compiler.palmrc.option.noWarnSize"/>
+            </toolReference>
+            <toolReference id="com.palmsource.eclipse.palmos4dev.compiler.m68k_palmos">
+                <optionReference defaultValue="More (-O2)" id="tool.compiler.gcc.68K.option.optLevel"/>
+                <optionReference defaultValue="None" id="tool.compiler.gcc.68K.option.debugLevel"/>
+                <optionReference id="tool.compiler.gcc.68K.option.defineSymbols">
+                    <listOptionValue builtIn="false" value="__PALMOS__=0x05000000"/>
+                    <listOptionValue builtIn="true" value="__MWERKS__"/>
+                </optionReference>
+                <optionReference id="tool.compiler.gcc.68K.option.includeDirs">
+                    <listOptionValue builtIn="false" value="&quot;$(TOOLS_DIR)include/stlport&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Core&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Core/Hardware&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Core/System&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Core/System/Unix&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Core/UI&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Dynamic&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Extensions&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Extensions/Bluetooth&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Extensions/ExpansionMgr&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/AddressSort&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/CPMLib&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/exglocal&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/INet&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/Lz77&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/PalmOSGlue&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/Pdi&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/Simulator&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/Simulator/Locale&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/Sms&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/SSL&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/Telephony&quot;"/>
+                    <listOptionValue builtIn="true" value="&quot;$(SDK5_LOCATION)include/Libraries/Telephony/UI&quot;"/>
+                </optionReference>
+            </toolReference>
+        </configuration>
+    </target>
+    <defaultConfig id="target.m68k_palmos.exe.debug.327581665"/>
+    <defaultTarget id="acv_chopper2.com.palmsource.eclipse.palmos4dev.target.m68k_palmos.exe.327581665"/>
+</ManagedProjectBuildInfo>
